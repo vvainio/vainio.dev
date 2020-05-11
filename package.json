@@ -1,0 +1,16 @@
+{
+  "name": "vainio.dev",
+  "description": "Personal website of Ville Vainio",
+  "author": "Ville Vainio",
+  "private": true,
+  "scripts": {
+    "start": "npx parcel src/index.html",
+    "build": "npx parcel build src/index.html --public-url ./ -d dist"
+  },
+  "dependencies": {
+    "modern-normalize": "^0.6.0"
+  },
+  "devDependencies": {
+    "sass": "^1.26.5"
+  }
+}
