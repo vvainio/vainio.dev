@@ -1,10 +1,10 @@
 html,
 body {
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
   color: $text-color--dark;
   font-family: 'Overpass', sans-serif;
   font-size: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
   font-weight: 700;
   line-height: 1.7;
   text-rendering: optimizeLegibility;
@@ -29,17 +29,5 @@ a {
 
   &:hover {
     color: lighten($text-color--dark, 30%);
-    transform: translateY(-5px);
   }
 }
-
-b,
-strong {
-  font-weight: 700;
-}
-
-small {
-  font-size: 13px;
-  line-height: 1em;
-}
-

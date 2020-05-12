@@ -1,0 +1,13 @@
+.footer {
+  font-size: 0.9rem;
+  padding: 0 20px 20px;
+  text-align: center;
+
+  &__logo {
+    @extend %logo;
+    @extend %logo--dark;
+
+    margin-bottom: 50px;
+    width: 100%;
+  }
+}

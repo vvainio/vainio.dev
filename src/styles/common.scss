@@ -1,0 +1,23 @@
+.logo,
+%logo {
+  height: 75px;
+  mask: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='100%25' viewBox='0 0 1200 1000' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cpath d='M450,750 L0,1.13686838e-13 L200,1.13686838e-13 L450,417 L700,3.41060513e-13 L1200,1.13686838e-13 L600,1000 L500.19995,833.666583 L900,167 L800,167 L450,750 Z' fill='black'%3E%3C/path%3E%3C/g%3E%3C/svg%3E%0A") no-repeat 50% 50%;
+  width: 90px;
+
+  &--dark {
+    background-color: $background-color--dark;
+  }
+
+  &--light {
+    background-color: $background-color--light;
+  }
+}
+
+.external-link-icon {
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24' stroke='currentColor' stroke-width='2' fill='none' stroke-linecap='round' stroke-linejoin='round' class='css-i6dzq1'%3E%3Cpath d='M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6'%3E%3C/path%3E%3Cpolyline points='15 3 21 3 21 9'%3E%3C/polyline%3E%3Cline x1='10' y1='14' x2='21' y2='3'%3E%3C/line%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+}

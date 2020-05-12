@@ -1,0 +1,113 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin: 0 auto;
+  max-width: 1280px;
+  padding: 15px 15px 0;
+}
+
+.introduction {
+  margin: 75px 0;
+  position: relative;
+
+  &__aside {
+    font-size: 25px;
+    left: -50px;
+    position: absolute;
+    top: 40px;
+    transform: rotate(-90deg);
+  }
+
+  &__title {
+    margin: 0 0 0 120px;
+  }
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 75px;
+
+  &:last-of-type {
+    margin-bottom: 50px;
+  }
+
+  &__title {
+    font-size: small;
+    min-width: 80px;
+  }
+
+  &__content {
+    flex-grow: 1;
+    font-size: 21px;
+    max-width: calc(100% - 80px);
+    padding: 40px;
+
+    &--light {
+      background-color: $background-color--light-alt;
+      color: $text-color--dark;
+    }
+
+    &--dark {
+      background-color: $background-color--dark;
+      color: $text-color--light;
+    }
+
+    > *:first-child {
+      margin-top: 0;
+    }
+
+    > *:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.tech-list {
+  display: block;
+  font-size: 0;
+  line-height: 0;
+  margin: -8px 0 0;
+  padding: 0;
+
+  &__item {
+    display: inline-block;
+    margin: 8px 8px 0 0;
+  }
+
+  &__link {
+    border: 1px solid $text-color--light;
+    color: $text-color--light;
+    display: block;
+    font-size: 0.9rem;
+    line-height: initial;
+    padding: 5px 10px;
+    text-decoration: none;
+
+    &:hover {
+      color: $text-color--light;
+      transform: translateY(-3px);
+    }
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .card__title {
+    min-width: 100%;
+  }
+
+  .card__content {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .introduction {
+    margin: 50px 0 0;
+  }
+
+  .card {
+    margin-top: 50px;
+  }
+}
