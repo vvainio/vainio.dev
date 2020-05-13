@@ -4,8 +4,8 @@
   "author": "Ville Vainio",
   "private": true,
   "scripts": {
-    "start": "npx parcel src/index.html",
-    "build": "npx parcel build src/index.html --public-url ./ -d dist && yarn postbuild",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./ -d dist && yarn postbuild",
     "postbuild": "parcel build 'public/**/*'"
   },
   "dependencies": {
@@ -14,6 +14,7 @@
   "devDependencies": {
     "autoprefixer": "^9.7.6",
     "cssnano": "^4.1.10",
+    "parcel-bundler": "^1.12.4",
     "postcss-modules": "^2.0.0",
     "sass": "^1.26.5"
   }
