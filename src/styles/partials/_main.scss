@@ -12,7 +12,7 @@
   position: relative;
 
   &__aside {
-    font-size: 25px;
+    font-size: 2.5rem;
     left: -50px;
     position: absolute;
     top: 40px;
@@ -40,7 +40,7 @@
 
   &__content {
     flex-grow: 1;
-    font-size: 21px;
+    font-size: 2.1rem;
     max-width: calc(100% - 80px);
     padding: 40px;
 
@@ -80,7 +80,7 @@
     border: 1px solid $text-color--light;
     color: $text-color--light;
     display: block;
-    font-size: 0.9rem;
+    font-size: 1.44rem;
     line-height: initial;
     padding: 5px 10px;
     text-decoration: none;

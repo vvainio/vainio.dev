@@ -41,7 +41,7 @@ $landing-overlay: linear-gradient($translucent-dark, transparent, $translucent-d
   z-index: 10;
 
   &__title {
-    font-size: 43px;
+    font-size: 4.3rem;
   }
 }
 
@@ -50,7 +50,7 @@ $landing-overlay: linear-gradient($translucent-dark, transparent, $translucent-d
 
   &__link {
     color: $text-color--light;
-    font-size: 24px;
+    font-size: 2.4rem;
     text-decoration: none;
 
     &:hover {
