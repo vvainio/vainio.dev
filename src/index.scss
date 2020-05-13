@@ -7,12 +7,6 @@ $background-color--light-alt: #f4f4f4;
 $text-color--dark: #111;
 $text-color--light: #fff;
 
-@import 'styles/common';
-@import 'styles/typography';
-@import 'styles/partials/landing';
-@import 'styles/partials/main';
-@import 'styles/partials/footer';
-
 html,
 body {
   background-color: $background-color--light;
@@ -20,3 +14,9 @@ body {
   flex-direction: column;
   margin: 0 auto;
 }
+
+@import 'styles/typography';
+@import 'styles/common';
+@import 'styles/partials/landing';
+@import 'styles/partials/main';
+@import 'styles/partials/footer';
