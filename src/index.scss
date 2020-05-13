@@ -1,22 +1,7 @@
 @import 'modern-normalize/modern-normalize.css';
 
-// Base colors
-$background-color--dark: #111;
-$background-color--light: #fff;
-$background-color--light-alt: #f4f4f4;
-$text-color--dark: #111;
-$text-color--light: #fff;
-
-html,
-body {
-  background-color: $background-color--light;
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-}
-
+@import 'styles/base';
 @import 'styles/typography';
-@import 'styles/common';
 @import 'styles/partials/landing';
 @import 'styles/partials/main';
 @import 'styles/partials/footer';
