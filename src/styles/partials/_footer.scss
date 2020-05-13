@@ -1,13 +1,13 @@
 .footer {
   font-size: 1.44rem;
-  padding: 0 20px 20px;
+  padding: 0 2rem 2rem;
   text-align: center;
 
   &__logo {
     @extend %logo;
     @extend %logo--dark;
 
-    margin-bottom: 50px;
+    margin-bottom: 5rem;
     width: 100%;
   }
 }

@@ -4,45 +4,45 @@
   flex-grow: 1;
   margin: 0 auto;
   max-width: 1280px;
-  padding: 15px 15px 0;
+  padding: 1.5rem 1.5rem 0;
 }
 
 .introduction {
-  margin: 75px 0;
+  margin: 7.5rem 0;
   position: relative;
 
   &__aside {
     font-size: 2.5rem;
-    left: -50px;
+    left: -5rem;
     position: absolute;
-    top: 40px;
+    top: 4rem;
     transform: rotate(-90deg);
   }
 
   &__title {
-    margin: 0 0 0 120px;
+    margin: 0 0 0 12rem;
   }
 }
 
 .card {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 75px;
+  margin-top: 7.5rem;
 
   &:last-of-type {
-    margin-bottom: 50px;
+    margin-bottom: 5rem;
   }
 
   &__title {
-    font-size: small;
-    min-width: 80px;
+    font-size: 1.3rem;
+    min-width: 8rem;
   }
 
   &__content {
     flex-grow: 1;
     font-size: 2.1rem;
-    max-width: calc(100% - 80px);
-    padding: 40px;
+    max-width: calc(100% - 8rem);
+    padding: 4rem;
 
     &--light {
       background-color: $background-color--light-alt;
@@ -68,12 +68,12 @@
   display: block;
   font-size: 0;
   line-height: 0;
-  margin: -8px 0 0;
+  margin: -0.8rem 0 0;
   padding: 0;
 
   &__item {
     display: inline-block;
-    margin: 8px 8px 0 0;
+    margin: 0.8rem 0.8rem 0 0;
   }
 
   &__link {
@@ -82,7 +82,7 @@
     display: block;
     font-size: 1.44rem;
     line-height: initial;
-    padding: 5px 10px;
+    padding: 0.5rem 1rem;
     text-decoration: none;
 
     &:hover {
@@ -104,10 +104,10 @@
 
 @media only screen and (max-width: 480px) {
   .introduction {
-    margin: 50px 0 0;
+    margin: 5rem 0 0;
   }
 
   .card {
-    margin-top: 50px;
+    margin-top: 5rem;
   }
 }
