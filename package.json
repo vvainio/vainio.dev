@@ -4,8 +4,8 @@
   "author": "Ville Vainio",
   "private": true,
   "scripts": {
-    "start": "npx parcel src/index.html",
     "build": "npx parcel build src/index.html --public-url ./ -d dist"
+    "start": "npx parcel src/index.html",
   },
   "dependencies": {
     "modern-normalize": "^0.6.0"
