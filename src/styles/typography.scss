@@ -1,7 +1,7 @@
 html,
 body {
   color: $text-color--dark;
-  font-family: 'Overpass', sans-serif;
+  font-family: "Overpass", sans-serif;
   font-size: 62.5%;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -32,4 +32,8 @@ a {
   &:hover {
     color: lighten($text-color--dark, 30%);
   }
+}
+
+.text-strike {
+  text-decoration: line-through;
 }
